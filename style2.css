@@ -1,0 +1,285 @@
+body, ul, li, p
+{
+margin: 0px;
+padding: 0px;
+list-style: none;
+font-size: 1.2rem;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo
+{
+    width: 200px;
+    margin-left: 100px;
+}
+
+
+header
+{
+    background: rgb(236, 231, 231);
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.menu
+{
+display: flex;
+margin-right: 80px;
+}
+
+.menu a:hover
+{
+    background-color: yellow;
+    transition: all 1s;
+}
+
+.menu li
+{
+    margin-left: 10px;
+    
+}
+
+.menu li a
+{
+    display: block;
+    padding: 10px;
+    background: blue;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.banner img
+{
+    width: 100%;
+    margin-top: 10px;
+    
+}
+
+.container
+{
+    border: 3px solid blue;
+    border-radius: 10px;
+    align-items: center;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: justify;
+    font: 1.2em sans-serif;
+    display: flex;
+}
+
+.textmarca
+{
+    width: 850px;
+    padding: 50px;
+}
+
+.marcas
+{
+    width: 500px;
+}
+
+.segurança
+{
+    border: 3px solid gray;
+    border-radius: 10px;
+    display: block;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    align-content: center;
+    margin: 30px;
+    float: left;
+}
+
+.qualidade
+{
+    border: 3px solid gray;
+    border-radius: 10px;
+    display: block;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    align-content: center;
+    margin: 30px;
+    float: left;
+    
+}
+
+.tradição
+{
+    border: 3px solid gray;
+    border-radius: 10px;
+    display: block;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    float: left;
+    
+}
+
+/*-=*Rodapé*=-*/
+
+#rodape
+{
+    background-color: rgb(13, 13, 236);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: auto;
+    clear: both;
+    letter-spacing: 2px;
+    line-height: 1.8;
+}
+.email
+{
+    color: white;
+    text-decoration: none;
+}
+
+.social a
+{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/*-=*SOBRE NÓS*=-*/
+
+#sobre-nos
+{
+    border: 1px solid white;
+    width: 700px;
+    padding: 10px;
+    margin-right: 500px;
+    margin-top: 30px;
+    text-align: justify;
+    font: 1.2em sans-serif;
+    align-items: center;
+    
+}
+
+.conteudo
+{
+    
+}
+
+.missao
+{
+    border: 3px solid gray;
+    border-radius: 10px;
+    display: block;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    align-content: center;
+    margin: 30px;
+    float: left;
+}
+
+.visao
+{
+    border: 3px solid gray;
+    border-radius: 10px;
+    display: block;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    align-content: center;
+    margin: 30px;
+    float: left;
+}
+
+.valores
+{
+    border: 3px solid gray;
+    border-radius: 10px;
+    display: block;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    align-content: center;
+    margin: 30px;
+    float: left;
+}
+
+
+/*-=*Nossos-Serviços*=-*/
+
+
+.cons-air
+{
+    color: red;
+    align-items: center;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: justify;
+    font: 1.2em sans-serif;
+    
+}
+
+.nossos-serv
+{
+    align-items: center;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: justify;
+    font: 1.2em sans-serif;
+    display: flex;
+}
+
+
+.text-reparo
+{
+    width: 850px;
+    padding: 50px;
+}
+
+.taxa
+{
+color: red;
+font-size: 28px;
+}
+
+#serviços-2 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div .serviços 
+{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgb(219, 214, 214);
+    border-radius: 20px 80px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+
+
+.oferecemos
+{
+    text-align: center;
+    font-size: 28px;
+    color: red;
+    
+}
+
+/*-=*CONTATO*=-*/
